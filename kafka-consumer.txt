@@ -1,0 +1,6 @@
+docker exec -it kafka kafka-console-consumer \
+--topic test-topic \
+--from-beginning \
+--bootstrap-server localhost:9092
+
+### open in new terminal
